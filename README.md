@@ -10,7 +10,7 @@ L'indagine si articola su due assi principali:
 1. **RQ1 - Generi e Movimenti nel Tempo**: Qual è la distribuzione dei generi nelle diverse epoche e come si riflette la differenza tra movimenti artistici (es. dal Rinascimento al Romanticismo) nei soggetti rappresentati?
 2. **RQ2 - Relazione tra Dimensioni e Genere**: Esiste una correlazione sistematica tra le misure dell'opera (altezza \times larghezza) e la sua tipologia tematica?
 
-##Fonte dei dati 
+## Fonte dei dati 
 | Variabile       | Tipo di dato       | Definizione                                                   | Esempio |
 |-----------------|------------------|---------------------------------------------------------------|---------|
 | `id`            | Stringa/URL      | Identificativo univoco dell’opera, spesso link a Wikidata o altra fonte esterna | `http://www.wikidata.org/entity/Q428274` |
@@ -40,25 +40,28 @@ Per garantire la coerenza dell'analisi, sono state eseguite le seguenti operazio
 * **Visualizzazione dei risultati**: tramite grafici a barre *.plot()*
 
 ## Analisi dei Risultati
-Verificare la predilezione di determinati generi nelle singole epoche per poi ipotizzare un legame tra genere e movimento. 
-- 
+
 ### Evoluzione dei Generi (RQ1)
+L'analisi ha rilevato i cinque generi più diffusi per secolo. Da questo primo risultato si è scelto di focalizzarsi su tre macro movimenti artistici consecutivi a livello cronologico, ovvero Rinascimento, Barocco e Romanticismo. 
 L'analisi evidenzia una chiara transizione tematica:
 * **Rinascimento e Barocco**: Risultano dominati dall'**arte religiosa** (con oltre 100 occorrenze nel solo Rinascimento), a testimonianza della committenza ecclesiastica prevalente.
 * **Romanticismo**: Si osserva un significativo mutamento verso soggetti laici; il **ritratto** emerge come genere principale, affiancato da un crescente interesse per la pittura di paesaggio e la pittura storica.
 
 ### Morfologia e Funzione (RQ2)
-I dati confermano che la dimensione dell'opera è spesso funzione della sua destinazione d'uso:
-* I generi destinati a contesti pubblici o monumentali (**pittura mitologica** e **arte religiosa**) presentano le aree mediane più elevate (circa 2 $m^2$).
-* I generi legati alla fruizione privata o individuale (**ritratto** e **autoritratto**) presentano invece dimensioni sensibilmente più ridotte, con mediane inferiori a 1 $m^2$.
+I dati confermano che la dimensione dell'opera è spesso legata alla sua destinazione d'uso:
+* I generi destinati a contesti pubblici o monumentali, come la pittura mitologica** e l'arte religiosa, presentano le aree mediane più elevate (circa 2 $m^2$).
+* I generi legati alla fruizione privata, come il ritratto,  presentano invece dimensioni sensibilmente più ridotte, con mediane inferiori a 1 $m^2$.
 
 ## Dataset e Strumenti
 * **Fonte Dati**: Dataset VAPOD (formato CSV) disponibile al link: [https://raw.githubusercontent.com/dhdmch/2025-2026/refs/heads/main/data/vapod/data.csv](https://raw.githubusercontent.com/dhdmch/2025-2026/refs/heads/main/data/vapod/data.csv).
 * **Strumenti**: Python (Pandas, NumPy, Matplotlib) tramite ambiente Google Colab.
+  
+## Responsabili
+- Claudia Bonora - [https://orcid.org/0009-0007-5646-2094](https://orcid.org/0009-0007-5646-2094)
+- Giulia Serreli - [https://orcid.org/0009-0004-3392-7774](https://orcid.org/0009-0004-3392-7774)
 
-## DOI e Citazione
-* **DOI**: (Inserire il DOI dopo l'archiviazione su Zenodo).
-* **Licenza**: CC0-1.0.
+## Licenza
+I dati sono rilasciati sotto licenza [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) 
 
 ---
 *Relazione prodotta per il corso di Informatica per i Beni Culturali (2025/2026).*
