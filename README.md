@@ -1,6 +1,6 @@
 # MOVIMENTI-E-MISURE
 
-## DOI: 
+## DOI: 10.5281/zenodo.18348465
 
 ## Descrizione: 
 Il progetto analizza un dataset storico-artistico utilizzando Pandas, propone un'analisi esplorativa del dataset **VAPOD**, per pulire e strutturare i dati. L’obiettivo è esplorare relazioni tra generi, movimenti e dimensioni delle opere, evidenziando pattern storici e stilistici. In particolare, il progetto indaga come le interazioni tra variabili temporali, tematiche e dimensionali possono far emergere tendenze nelle scelte  stilistiche. 
